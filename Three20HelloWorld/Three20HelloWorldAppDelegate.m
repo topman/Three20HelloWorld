@@ -7,16 +7,34 @@
 //
 
 #import "Three20HelloWorldAppDelegate.h"
+#import "TabBarController.h"
+#import "MenuViewController.h"
 
 @implementation Three20HelloWorldAppDelegate
 
 
-@synthesize window=_window;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+
+-(void) applicationDidFinishLaunching:(UIApplication *)application{
+    TTNavigator *navigator = [TTNavigator navigator];
+    navigator.supportsShakeToReload = YES;
+    navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+    navigator.window = [[[UIWindow alloc] initWithFrame:TTScreenBounds()] autorelease];
+    
+    
+    TTURLMap *map = navigator.URLMap;
+    [map from:@"*" toViewController:[TTWebController class]];
+    
+    [map from:@"tt://tabBar" toSharedViewController:[TabBarController class]];
+    [map from:@"tt://menu/(initWithMenu:)" toViewController:[MenuViewController class]];
+    
+    if (![navigator restoreViewControllers]){
+        [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://tabBar"]];
+    }
+}
+
+-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    [[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:url.absoluteString]];
     return YES;
 }
 
@@ -61,7 +79,6 @@
 
 - (void)dealloc
 {
-    [_window release];
     [super dealloc];
 }
 

@@ -1,5 +1,5 @@
 //
-//  Three20HelloWorldAppDelegate.h
+//  TabBarController.h
 //  Three20HelloWorld
 //
 //  Created by tower on 11-9-21.
@@ -8,9 +8,9 @@
 
 #import <Three20/Three20.h>
 
-@interface Three20HelloWorldAppDelegate : NSObject <UIApplicationDelegate> {
 
+@interface TabBarController : UITabBarController {
+    
 }
-
 
 @end
