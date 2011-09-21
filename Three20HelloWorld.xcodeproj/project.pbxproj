@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1F5A6F1429EF2500BC3240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1F5A6E1429EF2500BC3240 /* UIKit.framework */; };
+		7D1F5A711429EF2500BC3240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1F5A701429EF2500BC3240 /* Foundation.framework */; };
+		7D1F5A731429EF2500BC3240 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1F5A721429EF2500BC3240 /* CoreGraphics.framework */; };
+		7D1F5A791429EF2500BC3240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F5A771429EF2500BC3240 /* InfoPlist.strings */; };
+		7D1F5A7C1429EF2500BC3240 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5A7B1429EF2500BC3240 /* main.m */; };
+		7D1F5A7F1429EF2500BC3240 /* Three20HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1F5A7E1429EF2500BC3240 /* Three20HelloWorldAppDelegate.m */; };
+		7D1F5A821429EF2500BC3240 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1F5A801429EF2500BC3240 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D1F5A6A1429EF2500BC3240 /* Three20HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Three20HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1F5A6E1429EF2500BC3240 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D1F5A701429EF2500BC3240 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D1F5A721429EF2500BC3240 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D1F5A761429EF2500BC3240 /* Three20HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "Three20HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		7D1F5A781429EF2500BC3240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D1F5A7A1429EF2500BC3240 /* Three20HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "Three20HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		7D1F5A7B1429EF2500BC3240 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D1F5A7D1429EF2500BC3240 /* Three20HelloWorldAppDelegate.h */ = {isa = PBXFileReference; path = Three20HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		7D1F5A7E1429EF2500BC3240 /* Three20HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three20HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		7D1F5A811429EF2500BC3240 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1F5A671429EF2500BC3240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1F5A6F1429EF2500BC3240 /* UIKit.framework in Frameworks */,
+				7D1F5A711429EF2500BC3240 /* Foundation.framework in Frameworks */,
+				7D1F5A731429EF2500BC3240 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D1F5A5F1429EF2400BC3240 = {
+			isa = PBXGroup;
+			children = (
+				7D1F5A741429EF2500BC3240 /* Three20HelloWorld */,
+				7D1F5A6D1429EF2500BC3240 /* Frameworks */,
+				7D1F5A6B1429EF2500BC3240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D1F5A6B1429EF2500BC3240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5A6A1429EF2500BC3240 /* Three20HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1F5A6D1429EF2500BC3240 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5A6E1429EF2500BC3240 /* UIKit.framework */,
+				7D1F5A701429EF2500BC3240 /* Foundation.framework */,
+				7D1F5A721429EF2500BC3240 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D1F5A741429EF2500BC3240 /* Three20HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5A7D1429EF2500BC3240 /* Three20HelloWorldAppDelegate.h */,
+				7D1F5A7E1429EF2500BC3240 /* Three20HelloWorldAppDelegate.m */,
+				7D1F5A801429EF2500BC3240 /* MainWindow.xib */,
+				7D1F5A751429EF2500BC3240 /* Supporting Files */,
+			);
+			path = Three20HelloWorld;
+			sourceTree = "<group>";
+		};
+		7D1F5A751429EF2500BC3240 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1F5A761429EF2500BC3240 /* Three20HelloWorld-Info.plist */,
+				7D1F5A771429EF2500BC3240 /* InfoPlist.strings */,
+				7D1F5A7A1429EF2500BC3240 /* Three20HelloWorld-Prefix.pch */,
+				7D1F5A7B1429EF2500BC3240 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1F5A691429EF2500BC3240 /* Three20HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1F5A851429EF2500BC3240 /* Build configuration list for PBXNativeTarget "Three20HelloWorld" */;
+			buildPhases = (
+				7D1F5A661429EF2500BC3240 /* Sources */,
+				7D1F5A671429EF2500BC3240 /* Frameworks */,
+				7D1F5A681429EF2500BC3240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three20HelloWorld;
+			productName = Three20HelloWorld;
+			productReference = 7D1F5A6A1429EF2500BC3240 /* Three20HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1F5A611429EF2400BC3240 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7D1F5A641429EF2400BC3240 /* Build configuration list for PBXProject "Three20HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D1F5A5F1429EF2400BC3240;
+			productRefGroup = 7D1F5A6B1429EF2500BC3240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1F5A691429EF2500BC3240 /* Three20HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1F5A681429EF2500BC3240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1F5A791429EF2500BC3240 /* InfoPlist.strings in Resources */,
+				7D1F5A821429EF2500BC3240 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1F5A661429EF2500BC3240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1F5A7C1429EF2500BC3240 /* main.m in Sources */,
+				7D1F5A7F1429EF2500BC3240 /* Three20HelloWorldAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D1F5A771429EF2500BC3240 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1F5A781429EF2500BC3240 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D1F5A801429EF2500BC3240 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1F5A811429EF2500BC3240 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D1F5A831429EF2500BC3240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D1F5A841429EF2500BC3240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7D1F5A861429EF2500BC3240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20HelloWorld/Three20HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "Three20HelloWorld/Three20HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D1F5A871429EF2500BC3240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three20HelloWorld/Three20HelloWorld-Prefix.pch";
+				INFOPLIST_FILE = "Three20HelloWorld/Three20HelloWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1F5A641429EF2400BC3240 /* Build configuration list for PBXProject "Three20HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1F5A831429EF2500BC3240 /* Debug */,
+				7D1F5A841429EF2500BC3240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1F5A851429EF2500BC3240 /* Build configuration list for PBXNativeTarget "Three20HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1F5A861429EF2500BC3240 /* Debug */,
+				7D1F5A871429EF2500BC3240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1F5A611429EF2400BC3240 /* Project object */;
+}
